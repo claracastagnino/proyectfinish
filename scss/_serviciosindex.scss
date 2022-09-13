@@ -1,0 +1,26 @@
+.botonservicio {
+    @extend .botonnosotros; 
+    background-color: white;
+    text-decoration: map-get($estilos,color);
+}
+@media (min-width: 768){
+.container-servicios {
+   flex-direction: row;
+
+}
+}
+
+.container-servicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.img-texto {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

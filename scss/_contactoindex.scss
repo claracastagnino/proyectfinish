@@ -1,0 +1,5 @@
+.botoncontacto {
+    @extend .botonnosotros;
+    background-color: white;
+    color: map-get($estilos, color);
+}
